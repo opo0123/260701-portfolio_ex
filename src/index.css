@@ -19,3 +19,18 @@ a {
 section {
   padding: 120px 80px;
 }
+
+/* scroll bar */
+/* 전체 */
+html {
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+}
+/* 모달 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #bfd6ff;
+  border-radius: 10px;
+}
